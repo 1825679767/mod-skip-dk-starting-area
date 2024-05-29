@@ -2,40 +2,40 @@
 
 #
 #    Skip Death Knight Starting Area
-#        Enable this if you want to skip the Deathknight starting area
-#        Start with level 58 DK with Runeforging.
+#        如果你想跳过死亡骑士的起始区域，请启用此项。
+#        从58级的死亡骑士开始，并带有符文锻造。
 #
 #    Skip.Deathknight.Starter.Announce.enable
-#         Description: Announces Module when player logs in.
-#         Default:    0 - (Disabled)
-#                     1 - (Enabled)
+#         描述: 玩家登录时宣布模块。
+#         默认值:    0 - (禁用)
+#                     1 - (启用)
 #
 
-Skip.Deathknight.Starter.Announce.enable = 1
+Skip.Deathknight.Starter.Announce.enable = 0
 
 #
 #    Skip.DeathKnight.Starter.Enable
-#         Active Module for all new accounts regardless of account level. Instant Skip on DK Creation.
-#         Default:    0 - (Disabled)
-#                     1 - (Enabled)
+#         对所有新账户启用模块，无论账户等级如何。创建死亡骑士时直接跳过起始区域。
+#         默认值:    0 - (禁用)
+#                     1 - (启用)
 #
 
 Skip.Deathknight.Starter.Enable = 1
 
 #
 #    GM.Skip.Deathknight.Starter.Enable
-#         Active Module for all new accounts of a GM account level ONLY. Instant Skip on DK Creation.
-#         Ensure you have Skip.Deathknight.Starter.Enable set to 0 if using this conf.
-#         Default:    0 - (Disabled)
-#                     1 - (Enabled)
+#         仅对GM账户等级的新账户启用模块。创建死亡骑士时直接跳过起始区域。
+#         如果使用此配置，请确保 Skip.Deathknight.Starter.Enable 设置为 0。
+#         默认值:    0 - (禁用)
+#                     1 - (启用)
 #
 
 GM.Skip.Deathknight.Starter.Enable = 0
 
 #
 #    Skip.Deathknight.Start.Level
-#         Adjusted Death Knight Start Level if module is used.
-#         Default:    58 - (Default)
+#         如果使用该模块，调整死亡骑士的起始等级。
+#         默认值:    58 - (默认)
 #
 #
 
@@ -43,16 +43,16 @@ Skip.Deathknight.Start.Level = 58
 
 #
 #    Skip.Deathknight.Optional.Enable
-#    Enables optional to skip when talking to lich king on first creation of dk.
-#    Default: 1 - (Active)
+#    在首次创建死亡骑士与巫妖王交谈时启用可选跳过。
+#    默认值: 1 - (启用)
 #
 
 Skip.Deathknight.Optional.Enable = 1
 
 #
 #    DeleteGold.Deathknight.Optional.Enable
-#    Enables option to delete all gold reward from quests on skip of dk. To stop this as sort of exploitative gold income.
-#    Default: 1 - (Active)
+#    启用选项在跳过死亡骑士时删除所有任务奖励的金币。防止此作为一种剥削性的金币收入。
+#    默认值: 1 - (启用)
 #
 
 DeleteGold.Deathknight.Optional.Enable = 1
